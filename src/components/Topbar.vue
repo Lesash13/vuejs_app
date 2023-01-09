@@ -1,13 +1,13 @@
 <template>
   <nav class="navbar navbar-light">
     <div class="container">
-      <router-link :to="{name: 'home'}" class="navbar-brand"
+      <router-link :to="{name: 'globalFeed'}" class="navbar-brand"
                    exact>
         MediumClone
       </router-link>
       <ul class="nav navbar-nav pull-xs-right">
         <li class="nav-item">
-          <router-link :to="{name: 'home'}" class="nav-link">Home</router-link>
+          <router-link :to="{name: 'globalFeed'}" class="nav-link">Home</router-link>
         </li>
         <template v-if="isLoggedIn">
           <li class="nav-item">
