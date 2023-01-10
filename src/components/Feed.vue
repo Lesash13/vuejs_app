@@ -25,7 +25,13 @@
             </router-link>
             <span class="date">{{ article.createdAt }}</span>
           </div>
-          <div class="pull-xs-right">ADD TO FAVORITES</div>
+          <div class="pull-xs-right">
+            <vue-app-add-to-favorites
+                :article-slug="article.slug"
+                :favorites-count="article.favoritesCount"
+                :is-favorited="article.favorited"
+            ></vue-app-add-to-favorites>
+          </div>
         </div>
         <router-link
             :to="{name: 'article', params: {slug: article.slug}}"
@@ -57,6 +63,7 @@ import VueAppLoading from '@/components/Loading'
 import VueAppErrorMessage from '@/components/ErrorMessage'
 import queryString from 'query-string'
 import VueAppTagList from '@/components/TagList.vue'
+import VueAppAddToFavorites from '@/components/AddToFavorites.vue'
 
 export default {
   name: 'VueAppFeed',
@@ -64,7 +71,8 @@ export default {
     VueAppPagination,
     VueAppLoading,
     VueAppErrorMessage,
-    VueAppTagList
+    VueAppTagList,
+    VueAppAddToFavorites
   },
   props: {
     apiUrl: {
@@ -93,6 +101,9 @@ export default {
   },
   watch: {
     currentPage() {
+      this.fetchFeed()
+    },
+    apiUrl() {
       this.fetchFeed()
     }
   },

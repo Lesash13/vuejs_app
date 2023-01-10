@@ -8,9 +8,6 @@ api https://conduit.productionready.io/api/
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for
-the acknowledgements section. Here are a few examples.
-
 * [![Javascript][Javascript.io]][Javascript-url]
 * [![Vue.js][VueJs.io]][VueJs-url]
 * [![Babel][Babel.io]][Babel-url]
@@ -30,22 +27,25 @@ yarn install
 #### Clone the repo:
 
 ```sh
-git clone https://github.com/Lesash13/angular-app.git
+git clone https://github.com/Lesash13/vuejs-app.git
 ```
 
 ## Usage
 
-#### Compiles and hot-reloads for development:
+#### Build:
+
+``` sh
+yarn build
+```
+
+#### Development server:
+Navigate to `http://localhost:8080/
 
 ``` sh
 yarn serve
 ```
 
-#### Compiles and minifies for production:
 
-``` sh
-yarn build
-```
 
 #### Lints and fixes files:
 
@@ -62,7 +62,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 [dependency-shield]: https://img.shields.io/badge/Dependency_Graph-darkgreen?style=for-the-badge
 
-[dependency-url]: https://github.com/Lesash13/angular-app/network/dependencies
+[dependency-url]:  https://github.com/Lesash13/vuejs-app/network/dependencies
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=darkblue
 
@@ -80,9 +80,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 [Babel-url]:https://babeljs.io/
 
-[Redux.io]: https://img.shields.io/badge/-Redux-blueviolet?style=for-the-badge&logo=redux
+[Redux.io]: https://img.shields.io/badge/-Vuex-white?style=for-the-badge&logo=vue.js
 
-[Redux-url]: https://redux.js.org/
+[Redux-url]:https://vuex.vuejs.org/
 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery
 
