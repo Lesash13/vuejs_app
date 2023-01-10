@@ -39,7 +39,7 @@ yarn build
 ```
 
 #### Development server:
-Navigate to `http://localhost:8080/
+Navigate to http://localhost:8080/
 
 ``` sh
 yarn serve
