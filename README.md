@@ -10,7 +10,6 @@ api https://conduit.productionready.io/api/
 
 * [![Javascript][Javascript.io]][Javascript-url]
 * [![Vue.js][VueJs.io]][VueJs-url]
-* [![Babel][Babel.io]][Babel-url]
 * [![Redux][Redux.io]][Redux-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 * [![NodeJs][NodeJs.io]][NodeJs-url]
@@ -75,10 +74,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 [VueJs.io]: https://img.shields.io/badge/-Vue.js-black?style=for-the-badge&logo=vue.js
 
 [VueJs-url]: https://vuejs.org/
-
-[Babel.io]: https://img.shields.io/badge/-Babel-lightgrey?style=for-the-badge&logo=babel
-
-[Babel-url]:https://babeljs.io/
 
 [Redux.io]: https://img.shields.io/badge/-Vuex-white?style=for-the-badge&logo=vue.js
 
